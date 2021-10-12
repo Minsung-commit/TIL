@@ -1,0 +1,39 @@
+from sklearn.datasets import make_blobs
+import numpy as np
+
+# 5개 중심점 좌표 설정
+
+blob_centers = np.array(
+    [[ 0.2,  2.3],
+     [-1.5 ,  2.3],
+     [-2.8,  1.8],
+     [-2.8,  2.8],
+     [-2.8,  1.3]])
+blob_std = np.array([0.4, 0.3, 0.1, 0.1, 0.1])
+
+# make_blobs 을 통해 
+# 지정한 중심을 갖는 5개 클러스터로 된 데이터셋 2000개 생성
+
+X, y = make_blobs(n_samples=2000, centers=blob_centers,
+                  cluster_std=blob_std, random_state=7)
+
+# k를 1~10까지 적용한 KMeans 모델 생성
+kmeans_per_k = [KMeans(n_clusters=k, random_state=42).fit(X)
+                for k in range(1, 10)]
+inertias = [model.inertia_ for model in kmeans_per_k]
+
+# plot
+
+plt.figure(figsize=(8, 3.5))
+plt.plot(range(1, 10), inertias, "bo-")
+plt.xlabel("$k$", fontsize=14)
+plt.ylabel("Inertia", fontsize=14)
+plt.annotate('Elbow',
+             xy=(4, inertias[3]),
+             xytext=(0.55, 0.55),
+             textcoords='figure fraction',
+             fontsize=16,
+             arrowprops=dict(facecolor='black', shrink=0.1)
+            )
+plt.axis([1, 8.5, 0, 1300])
+plt.show()

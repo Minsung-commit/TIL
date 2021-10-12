@@ -1,0 +1,32 @@
+2021-09-01 진행 사항 
+
+DS: 
+서비스 시나리오 변경 논의:
+
+단순한 유의어 추천에서 사용자 중심의 가치 재정의 필요성이 있음.
+영어 학습 보조 프로그램/ 
+문장 평가 척도에 대한 논의.
+
+
+
+
+DE 수행 사항
+
+conceptual architecture 구성
+
+AWS에서 Ubuntu 환경 설정
+
+- 설치 사항
+  - mysql
+  - spark
+  - mongoDB
+  - Kafak
+  - open JDK
+  - zookeeper
+
+- 설치 사항과 spark 연결 완료
+
+
+향후 수행 사항
+
+- Kafka 설치
