@@ -1,10 +1,7 @@
-![header](https://capsule-render.vercel.app/api?type=slice&color=auto&height=300&section=header&text=MinsungLee&fontSize=90)
-<h3 align="center">🛠 Tech Stack 🛠</h3>
+![header](https://capsule-render.vercel.app/api?type=slice&color=auto&height=300&section=header&text=Today I Learned &fontSize=90)
 
-<p align="center"> Techs that I've used at least once </p>
 
-<p align="center">
-<img src="https://img.shields.io/badge/Python-3766AB?style=flat-square&logo=Python&logoColor=white"/></a>&nbsp
+
 
 
 
@@ -754,3 +751,23 @@ django 활용 방식이 아직 정확하게 이해되지 않음.
 - 비상교육 AI 기획팀 자소서를 작성하였다. 경력 1년 이상부터 모집하긴 하는데 사실 어떻게 될지 모르겠다. 그렇지만 너무나도 탐나는 자리이고 경험삼아 한번 도전해보는 것도 괜찮을 것같다.
 - 이제 교육이 끝나고 취업을 해야할 때이니 조금만 더 정신차리고 더 열심히 준비를 해나가면 분명 좋은 결과가 있을 것 같다!
 
+## 2021-10-27(수)
+
+### 활동내용 : Git Hub 꾸미기 1일차
+
+
+
+- Git에 있는 이스터 에그 기능을 사용하면, Git 프로필을 꾸밀 수 있다고 한다. 해당 기능을 사용하여 Git 프로필 꾸미기 시작
+- Readme를 만들어 해당 내용을 채워넣으면 깃 프로필로 연동이 가능하다.
+
+
+
+## 2021- 10-28(목)
+
+### 활동내용 : Git Hub 꾸미기 2일차
+
+
+
+- 데일리 코딩 시간 나타내기
+- Git Hub Stats 나타내기
+- 프로필 표지 및 Tech Stack 나타내기 작업 완료 
